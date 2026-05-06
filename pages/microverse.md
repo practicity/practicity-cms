@@ -22,7 +22,7 @@ As the saying goes: "If you want to go fast, go alone; if you want to go far, go
 ## How to access it ?
 You will need a usual laptop or your phone to navigate into PractiCity Microverse, nothing else, no installation (thanks to babylon.js - see our public repository at github).
 
-Navigate with your keyboard like you would do in a 'first person view' game. Interact with buildings, items or people using E key (or pressing the Interact button displayed for mobile access).
+Navigate by pressing SPACE BAR and move the mouse to orientate the direction like you would do in a 'first person view' game. Interact with buildings, items or people by clicking on the items when there is a possible interaction.
 
 
 {% if site.microverse_url contains '?' %}{% assign mv_sep = '&' %}{% else %}{% assign mv_sep = '?' %}{% endif %}
@@ -32,7 +32,7 @@ Navigate with your keyboard like you would do in a 'first person view' game. Int
   </a>
 </div>
 
-## My device is too slow
+## What if my device is too slow ?
 You can simply navigate in the Locations page of this web site
 
 <a href="{{ site.baseurl }}/locations">Visit PractiCity Microverse Locations</a>

@@ -62,12 +62,7 @@ layout: default
             {% if page.original %}
               </a>
             {% endif %}
-            {% if page.screenshot1_description or page.screenshot1_credit %}
-            <figcaption>
-              {% if page.screenshot1_description %}{{ page.screenshot1_description }}{% endif %}
-              {% if page.screenshot1_credit %}<span class="img-credit">{{ page.screenshot1_credit }}</span>{% endif %}
-            </figcaption>
-            {% endif %}
+            {% if page.screenshot1_credit %}<figcaption>{{ page.screenshot1_credit }}</figcaption>{% endif %}
           </figure>
         {% endif %}
 
@@ -82,12 +77,7 @@ layout: default
             {% if page.original %}
               </a>
             {% endif %}
-            {% if page.screenshot2_description or page.screenshot2_credit %}
-            <figcaption>
-              {% if page.screenshot2_description %}{{ page.screenshot2_description }}{% endif %}
-              {% if page.screenshot2_credit %}<span class="img-credit">{{ page.screenshot2_credit }}</span>{% endif %}
-            </figcaption>
-            {% endif %}
+            {% if page.screenshot2_credit %}<figcaption>{{ page.screenshot2_credit }}</figcaption>{% endif %}
           </figure>
         {% endif %}
 

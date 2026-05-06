@@ -43,12 +43,7 @@ layout: default
                    alt="{{ page.screenshot1_description | default: '' }}"
                    class="screenshot-img">
             </a>
-            {% if page.screenshot1_description or page.screenshot1_credit %}
-            <figcaption>
-              {% if page.screenshot1_description %}{{ page.screenshot1_description }}{% endif %}
-              {% if page.screenshot1_credit %}<span class="img-credit">{{ page.screenshot1_credit }}</span>{% endif %}
-            </figcaption>
-            {% endif %}
+            {% if page.screenshot1_credit %}<figcaption>{{ page.screenshot1_credit }}</figcaption>{% endif %}
           </figure>
         {% endif %}
         {% if page.screenshot2 %}
@@ -58,12 +53,7 @@ layout: default
                    alt="{{ page.screenshot2_description | default: '' }}"
                    class="screenshot-img">
             </a>
-            {% if page.screenshot2_description or page.screenshot2_credit %}
-            <figcaption>
-              {% if page.screenshot2_description %}{{ page.screenshot2_description }}{% endif %}
-              {% if page.screenshot2_credit %}<span class="img-credit">{{ page.screenshot2_credit }}</span>{% endif %}
-            </figcaption>
-            {% endif %}
+            {% if page.screenshot2_credit %}<figcaption>{{ page.screenshot2_credit }}</figcaption>{% endif %}
           </figure>
         {% endif %}
         {% if page.screenshot3 %}
@@ -73,12 +63,7 @@ layout: default
                    alt="{{ page.screenshot3_description | default: '' }}"
                    class="screenshot-img">
             </a>
-            {% if page.screenshot3_description or page.screenshot3_credit %}
-            <figcaption>
-              {% if page.screenshot3_description %}{{ page.screenshot3_description }}{% endif %}
-              {% if page.screenshot3_credit %}<span class="img-credit">{{ page.screenshot3_credit }}</span>{% endif %}
-            </figcaption>
-            {% endif %}
+            {% if page.screenshot3_credit %}<figcaption>{{ page.screenshot3_credit }}</figcaption>{% endif %}
           </figure>
         {% endif %}
       </div>
